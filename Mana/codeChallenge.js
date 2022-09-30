@@ -244,14 +244,14 @@
 // console.log(swap1(34))
 
 //#14
-function sum(){
-    let addition=2+2;
-    let sub=2-2
-    let mul=2*2
-    let divition=4/2
-    console.log(addition,sub,mul,divition)
-}
-sum();
+// function sum(){
+//     let addition=2+2;
+//     let sub=2-2
+//     let mul=2*2
+//     let divition=4/2
+//     console.log(addition,sub,mul,divition)
+// }
+// sum();
 
 //#15
 
@@ -261,3 +261,17 @@ sum();
 //     .then(json => console.log(json))
 //     }
 //     fetchData();
+
+const fetch = require('node-fetch');
+
+async function fetchData(){
+    await fetch('https://dummyjson.com/products/1')
+    .then(res=>res.json())
+    .then((data) =>console.log(data))
+    .catch(err=>{
+        console.log('err',err)
+    })
+}
+
+
+ fetchData();
