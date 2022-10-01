@@ -659,3 +659,145 @@ coords.push({x:33,y:44})*/
 // function Student(name:string,id:number):void{
 //     return undefined;
 // }
+
+
+// let Mana=(name:string,id:number,age:number,place:string):string=>{
+//     return name;id;age;place;
+//     console.log(name,id,age,place)
+// }
+// console.log("mana",33,44,"PP")
+
+
+//Review function 
+
+// let User=(name:string,age:number,id:number,place:string):string=>{
+//     return name;id;age;place;
+//     console.log(name,id,place,age)
+// }
+// console.log('Hiang',33,44,55)
+
+
+
+
+// let User=(name:string,age:number,id:number,place:string):string=>{
+//     return name;id;age;place;
+// }
+// console.log('Mana',44,44,44)
+
+// let User=(a:number,b:number,c?:number|string)=>{
+// console.log(a-b)
+// }
+// console.log(User(3,4))
+
+
+// let Test=(a:number,b:number,c:number|string=4):number=>{
+//     return a+b;
+// }
+// console.log(3,44)
+
+// function User(Person:{firstname:string;lastname:string}):void{
+//     console.log('${Person.firstname}${Person.lastname}');
+// }
+// User({firstname:'Socha',lastname:'Ra'})
+
+
+// function Person(man:{first:string;last:string}):void{
+//     console.log('${man.first}${man.last}');
+// }
+// Person({first:"Soteara",last:"Pich"})
+
+
+// function Person(man:{first:string;last:string}){
+//     console.log('${man.first}${man.last}')
+// }
+// Person({first:"Mana",last:"Co"})
+
+// function Person(man:{first:string;last:string}):void{
+//     console.log('${man.first}${man.last}')
+// }
+// Person({first:"Gona",last:"Da"})
+
+
+// function Person(man:{first:string;last:string}):void{
+//     console.log('${man.first}${man.last}')
+// }
+// Person({first:"socho",last:"God"})
+
+
+// function Dollar(Money:{first:string;last:string}){
+//     console.log('${Money.first}${Money.last}')
+// }
+// Dollar({first:"Mana",last:"God"})
+
+
+
+// function Dollar(Money:{first:string;last:string}):void{
+//     console.log('${Money.first}${Money.last}')
+// }
+// console.log({first:"Mana",last:"Hiang"})
+
+// function Dollar(Money:{first:string;last:string}):void{
+//     console.log('${Money.first}${Money.last}');
+// }
+// console.log({first:"Socheara",last:"Good"})
+
+// let coodinate:{a:number,b:number,c:number}={a:33,b:44,c:9}
+
+// let coodinate:{a:number,b:number,c:number}={a:44,b:56,c:5}
+
+// let User:{a:number,b:string,c:number}={a:54,b:"Mana",c:44}
+
+
+//let Num:{a:number,b:string,c:string}={a:44,c:"mana",b:"Banaba"}
+
+//  let Username:{a:number,b:number,c:number}={a:33,b:88,c:56}
+// function RandomUsername():{a:number,b:number,c:number}{
+//     return{a:Math.random(),b:Math.random(),c:Math.random()}
+// }
+
+
+// let Username:{a:number,b:number,c:number}={a:43,b:45,c:54}
+// function RandomUsername():{a:number,b:number,c:number}{
+//     return {a:Math.random(),b:Math.random(),c:Math.random()}
+// }
+
+// let Train:{a:number,b:number,c:number}={a:34,b:56,c:98}
+// function RandomTrain():{a:number,b:number,c:number}{
+//     return {a:Math.random(),b:Math.random(),c:Math.random()}
+// }
+
+// let Test:{a:number,b:number,c:number}={a:34,c:56,b:77}
+// function RandomTest():{a:number,b:number,c:number}{
+//     return{a:Math.random(),c:Math.random(),b:Math.random()}
+// }
+
+
+
+// let Test1:{a:number,b:number,c:number}={a:34,b:56,c:77}
+// function RandomTest ():{a:number,c:number,b:number}{
+//     return {a:Math.random(),b:Math.random(),c:Math.random()}
+// }
+
+
+// let Train:{a:number,b:number,c:number}={a:45,b:98,c:87}
+// function randomTrain():{a:number,c:number,b:number}{
+//     return {a:Math.random(),b:Math.random(),c:Math.random()}
+// }
+
+// function greeta(person:{name: string;age:number}){
+//     return "hello"+person.name;
+//   }
+
+// function greet(person:{name:string;age:number}){
+//     return "hello"+person.name;
+// }
+
+// function Test(person:{name:string;age:number}){
+//     return "hello"+person.age;
+// }
+
+
+
+// function Test(person:{name:string;age:number}){
+//     return "hello"+person.age;
+// }
