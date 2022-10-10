@@ -1292,6 +1292,8 @@ coords.push({x:33,y:44})*/
 // function Hello<X,Y>(v1:X,v2:Y):[X,Y]{
 //   return [v1,v2]
 // }
-// console.log()
+
 // let message : string = "Hello";
 // console.log(message);
+// const {Createcommand}=require('commander')
+// const program=Createcommand();

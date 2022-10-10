@@ -262,16 +262,15 @@
 //     }
 //     fetchData();
 
-const fetch = require('node-fetch');
+// const fetch = require('node-fetch');
 
-async function fetchData(){
-    await fetch('https://dummyjson.com/products/1')
-    .then(res=>res.json())
-    .then((data) =>console.log(data))
-    .catch(err=>{
-        console.log('err',err)
-    })
-}
+// async function fetchData(){
+//     await fetch('https://dummyjson.com/products/1')
+//     .then(res=>res.json())
+//     .then((data) =>console.log(data))
+//     .catch(err=>{
+//         console.log('err',err)
+//     })
+// }
 
-
- fetchData();
+//  fetchData();

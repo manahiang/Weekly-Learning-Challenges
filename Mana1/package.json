@@ -1,14 +1,18 @@
 {
-  "name": "Mana1",
+  "name": "ts-cal",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "license": "MIT",
   "dependencies": {
+    "i": "^0.3.7",
+    "command": "^0.0.5",
+    "commander": "^9.4.1",
     "typescript": "^4.8.4"
   },
+  "bin": "index.js",
   "scripts": {
-    "dev": "yarn compile && yarn start",
-    "start": "node dist/index.js",
-    "compile":"tsc"
+    "calc": "yarn compile && yarn start",
+    "start": "node dist/homeworkCalc.js",
+    "compile": "tsc"
   }
 }
