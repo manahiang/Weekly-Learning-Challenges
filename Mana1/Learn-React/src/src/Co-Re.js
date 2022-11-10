@@ -783,45 +783,188 @@
 
 // export default Effct
 
-import './index.css';
+// import './index.css';
 
-function Grid() {
-    return (
-        <div style={{ textAlign: 'center' }}>
-            <h1>Learn Grid</h1>
+// function Grid() {
+//     return (
+//         <div style={{ textAlign: 'center' }}>
+//             <h1>Learn Grid</h1>
 
-            {/* use columns with 1fr and rows with size */}
+//             {/* use columns with 1fr and rows with size */}
 
-            <div className='grid1'>
-                <div className='grid-child1'>Grid1</div>
-                <div className='grid-child1'>Grid2</div>
-                <div className='grid-child1'>Grid3</div>
-                <div className='grid-child1'>Grid4</div>
-                <div className='grid-child1'>Grid5</div>
-                <div className='grid-child1'>Grid6</div>
-                <div className='grid-child1'>Grid7</div>
-                <div className='grid-child1'>Grid8</div>
-            </div><hr />
+//             <div className='grid1'>
+//                 <div className='grid-child1 b1'>Grid1</div>
+//                 <div className='grid-child1 b2' >Grid2</div>
+//                 <div className='grid-child1 b3'>Grid3</div>
+//                 <div className='grid-child1 b4'>Grid4</div>
+//                 <div className='grid-child1 b5'>Grid5</div>
+//                 <div className='grid-child1 b6'>Grid6</div>
+//                 <div className='grid-child1 b7'>Grid7</div>
+//                 <div className='grid-child1 b8'>Grid8</div>
+//             </div><hr />
 
-            {/* use comlumns with auto and rows with size */}
+//             {/* use comlumns with auto and rows with size */}
 
-            <div className='grid2'>
-                <div className='grid-child2'>Grid1</div>
-                <div className='grid-child2'>Grid2</div>
-                <div className='grid-child2'>Grid3</div>
-                <div className='grid-child2'>Grid4</div>
-                <div className='grid-child2'>Grid5</div>
-                <div className='grid-child2'>Grid6</div>
-            </div><hr/>
-            <div className='grid3'>
-                <div className='grid-child3 box1'>Grid1</div>
-                <div className='grid-child3 box2'>Grid2</div>
-                <div className='grid-child3 box3'>Grid3</div>
-                <div className='grid-child3 box4'>Grid4</div>
-                <div className='grid-child3 box5'>Grid5</div>
-                <div className='grid-child3 box6'>Grid6</div>
-            </div><br/>
+//             <div className='grid2'>
+//                 <div className='grid-child2'>Grid1</div>
+//                 <div className='grid-child2'>Grid2</div>
+//                 <div className='grid-child2'>Grid3</div>
+//                 <div className='grid-child2'>Grid4</div>
+//                 <div className='grid-child2'>Grid5</div>
+//                 <div className='grid-child2'>Grid6</div>
+//             </div><hr />
+//             <div className='grid3'>
+//                 <div className='grid-child3 box1'>
+//                     <div>
+//                         <h1>Menu</h1>
+//                         <div>Now you can allow the grid to your menu</div>
+//                     </div>
+//                 </div>
+//                 <div className='grid-child3 box2'>
+//                     <div>
+//                         <div>
+//                             <h1>Nevigation Bar</h1>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div className='grid-child3 box3'>
+//                     <div>
+//                         <div>
+//                             <h1>Form</h1>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div className='grid-child3 box4'>
+//                     <div>
+//                         <div>
+//                             <h1>Picture</h1>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div className='grid-child3 box5'>
+//                     <div>
+//                         <div>
+//                             <h1>Picture </h1>
+//                         </div>
+//                     </div>
+//                 </div>
+//                 <div className='grid-child3 box6'>
+//                     <div>
+//                         <div>
+//                             <h1>Picture</h1>
+//                         </div>
+//                     </div>
+//                 </div>
+//             </div>
+//         </div>
+//     )
+// }
+// export default Grid;
+
+
+
+
+
+// import './index.css'
+// function Grid() {
+//     return (
+//         <div>
+//             <div>
+//                 <h1>Learn The Grid</h1>
+//                 <div className='Grid'>
+//                     <div className='grid grid1'>Grid1</div>
+//                     <div className='grid grid2'>Grid2</div>
+//                     <div className='grid grid3'>Grid3</div>
+//                     <div className='grid grid4'>Grid4</div>
+//                     <div className='grid grid5'>Grid5</div>
+//                     <div className='grid grid6'>Grid6</div>
+//                     <div className='grid grid7'>Grid7</div>
+//                 </div>
+
+//             </div>
+//         </div>
+//     )
+// }
+// export default Grid;
+
+
+//Media query
+
+
+
+
+
+
+
+// import './index.css'
+
+// function MQ(){
+//     return(
+//         <div>
+//             <h1>Media query</h1>
+//             <div className='container'>
+//                 <div className='md md1'>1</div>
+//                 <div className='md md2'>2</div>
+//                 <div className='md md3'>3</div>
+//                 <div className='md md4'>4</div>
+//                 <div className='md md5'>5</div>
+//                 <div className='md md6'>6</div>
+//                 <div className='md md6'>7</div>
+//                 <div className='md md6'>8</div>
+//             </div>
+//         </div>
+//     )
+// }
+// export default MQ;
+
+
+
+//Flexbox
+
+
+// import'./index.css'
+
+// function Flexbox(){
+//     return(
+//         <div>
+//             <h1>Llexbox</h1>
+//             <div className='container'>
+//                 <div className='flex flex1'>flex1</div>
+//                 <div className='flex flex2'>flex2</div>
+//                 <div className='flex flex3'>flex3</div>
+//                 <div className='flex flex4'>flex4</div>
+//                 <div className='flex flex5'>flex5</div>
+//                 <div className='flex flex6'>flex6</div>
+//                 <div className='flex flex7'>flex7</div>
+//                 <div className='flex flex8'>flex9</div>
+//             </div>
+//         </div>
+//     )
+// }
+// export default Flexbox;
+
+
+
+//flexbox1
+
+
+import './index.css'
+
+function Flexbox(){
+    return(
+        <div>
+            <h1>flexbox</h1>
+            <div className='container'>
+                <div className='flex flex1'>flex1</div>
+                <div className='flex flex2'>flex2</div>
+                <div className='flex flex3'>flex3</div>
+                <div className='flex flex4'>flex4</div>
+                <div className='flex flex5'>flex5</div>
+                <div className='flex flex6'>flex6</div>
+                <div className='flex flex7'>flex7</div>
+                <div className='flex flex8'>flex8</div>
+            </div>
         </div>
     )
 }
-export default Grid;
+export default Flexbox;
