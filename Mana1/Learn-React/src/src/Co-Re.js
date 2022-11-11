@@ -948,23 +948,73 @@
 //flexbox1
 
 
+// import './index.css'
+
+// function Flexbox(){
+//     return(
+//         <div>
+//             <h1>flexbox</h1>
+//             <div className='container'>
+//                 <div className='flex flex1'>flex1</div>
+//                 <div className='flex flex2'>flex2</div>
+//                 <div className='flex flex3'>flex3</div>
+//                 <div className='flex flex4'>flex4</div>
+//                 <div className='flex flex5'>flex5</div>
+//                 <div className='flex flex6'>flex6</div>
+//                 <div className='flex flex7'>flex7</div>
+//                 <div className='flex flex8'>flex8</div>
+//             </div>
+//         </div>
+//     )
+// }
+// export default Flexbox;
+
+
+
+
+
+//Layout
+
+// import './index.css'
+
+// function Layout(){
+//     return(
+//         <div className="container">
+//            <div className='header'><h1>Header</h1></div>
+//            <div className='main'>
+//             <div className='left'><h1>Left</h1></div>
+//             <div className='body'><h1>Body</h1></div>
+//             <div className='right'><h1>right</h1></div>
+//            </div>
+//            <div className='footer'><h1>Footer</h1></div>
+//         </div>
+//     )
+// }
+// export default Layout;
+
+
+
+
+//layout with Table
+
 import './index.css'
 
-function Flexbox(){
-    return(
+function Table() {
+    return (
         <div>
-            <h1>flexbox</h1>
-            <div className='container'>
-                <div className='flex flex1'>flex1</div>
-                <div className='flex flex2'>flex2</div>
-                <div className='flex flex3'>flex3</div>
-                <div className='flex flex4'>flex4</div>
-                <div className='flex flex5'>flex5</div>
-                <div className='flex flex6'>flex6</div>
-                <div className='flex flex7'>flex7</div>
-                <div className='flex flex8'>flex8</div>
-            </div>
+            <table border="2px" width="890" height="200" color='yellow' className='table'>
+                <tr>
+                    <th colSpan="3" width="890" height="100" bgcolor='yellow' className='header'>Header</th>
+                </tr>
+
+                <tr className='tr-body'>
+                    <td width="200" height="500" bgcolor="blue" className='left'>Left</td>
+                    <td bgcolor="red" className='body'>body</td>
+                    <td width="200" height="500" bgcolor="blue" className='right'>right</td>
+                </tr>
+                <tr><td colSpan="3" width="980" height="100" bgcolor="yellow">Footer</td></tr>
+            </table>
         </div>
     )
 }
-export default Flexbox;
+export default Table;
