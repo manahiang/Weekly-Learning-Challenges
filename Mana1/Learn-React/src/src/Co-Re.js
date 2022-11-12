@@ -997,24 +997,180 @@
 
 //layout with Table
 
-import './index.css'
+// import './index.css'
 
-function Table() {
-    return (
-        <div>
-            <table border="2px" width="890" height="200" color='yellow' className='table'>
-                <tr>
-                    <th colSpan="3" width="890" height="100" bgcolor='yellow' className='header'>Header</th>
-                </tr>
+// function Table() {
+//     return (
+//         <div>
+//             <table border="2px" width="890" height="200" color='yellow' className='table'>
+//                 <tr>
+//                     <th colSpan="3" width="890" height="100" bgcolor='yellow' className='header'>Header</th>
+//                 </tr>
 
-                <tr className='tr-body'>
-                    <td width="200" height="500" bgcolor="blue" className='left'>Left</td>
-                    <td bgcolor="red" className='body'>body</td>
-                    <td width="200" height="500" bgcolor="blue" className='right'>right</td>
-                </tr>
-                <tr><td colSpan="3" width="980" height="100" bgcolor="yellow">Footer</td></tr>
-            </table>
-        </div>
-    )
-}
-export default Table;
+//                 <tr className='tr-body'>
+//                     <td width="200" height="500" bgcolor="blue" className='left'>Left</td>
+//                     <td bgcolor="red" className='body'>body</td>
+//                     <td width="200" height="500" bgcolor="blue" className='right'>right</td>
+//                 </tr>
+//                 <tr><td colSpan="3" width="980" height="100" bgcolor="yellow">Footer</td></tr>
+//             </table>
+//         </div>
+//     )
+// }
+// export default Table;
+
+
+
+
+//fetch data
+
+// import {useEffect, useState} from "react"
+
+// function Fetch(){
+//     const[data,setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((resp)=>resp.json())
+//         .then((apiData)=>{
+//             setData(apiData.message);
+//             console.log(apiData.message)
+//         })
+//     },[]);
+//     return(
+//         <div>
+//             <img  width={500} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch;
+
+
+// import {useState,useEffect} from "react"
+
+// function Fetch(){
+//     const[data, setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((wait)=>wait.json())
+//         .then((name)=>{
+//             setData(name.message)
+//             console.log(name)
+//         })
+//     })
+//     return(
+//         <div>
+//             <img width={500} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch;
+
+
+
+
+// import{useState,useEffect} from "react"
+
+// function Fetch1(){
+//     const[data, setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((wait)=>wait.json())
+//         .then((start)=>{
+//             setData(start.message)
+//             console.log(start)
+//         })
+//     })
+//     return(
+//         <div>
+//             <img width={400} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch1;
+
+
+// import{useState,useEffect} from "react"
+
+// function Fetch2(){
+//     const[data, setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((wait)=>wait.json())
+//         .then((start)=>{
+//             setData(start.message)
+//             console.log(start.message)
+//         })
+//     })
+//     return(
+//         <div>
+//             <img width={500} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch2;
+
+
+// import {useState, useEffect} from "react"
+
+// function Fetch3(){
+//     const[data, setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((wait)=>wait.json())
+//         .then((start)=>{
+//             setData(start.message)
+//             console.log(start.message)
+//         })
+//     })
+//     return(
+//         <div>
+//             <img width={500} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch3;
+
+
+
+
+// import{useState, useEffect} from "react"
+
+// function Fetch4(){
+//     const[data, setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((wait)=>wait.json())
+//         .then((start)=>{
+//             setData(start.message)
+//             console.log(start.message)
+//         })
+//     })
+//     return(
+//         <div>
+//             <img width={500} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch4;
+
+
+
+// import {useState, useEffect} from "react"
+
+// function Fetch5(){
+//     const[data, setData]=useState(null)
+//     useEffect(()=>{
+//         fetch("https://dog.ceo/api/breeds/image/random")
+//         .then((wait)=>wait.json())
+//         .then((start)=>{
+//             setData(start.message)
+//             console.log(start.message)
+//         })
+//     })
+//     return(
+//         <div>
+//             <img width={500} src={data}/>
+//         </div>
+//     )
+// }
+// export default Fetch5;
